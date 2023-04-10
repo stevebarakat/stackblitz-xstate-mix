@@ -1,0 +1,35 @@
+.channels {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.fader {
+  display: flex;
+  flex-direction: column;
+  background: #000;
+  padding: 24px 0;
+  border-radius: 12px;
+  align-items: center;
+}
+
+.vertical-range-wrap {
+  height: 130px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.vertical-range {
+  rotate: 270deg;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+}
+
+.pan {
+  margin-bottom: 48px;
+  width: 60%;
+}
